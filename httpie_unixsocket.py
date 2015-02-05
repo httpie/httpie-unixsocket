@@ -1,9 +1,9 @@
 """
-UNIX socket plugin for HTTPie.
+UNIX socket transport plugin for HTTPie.
 
 """
-from httpie.plugins import AuthPlugin
-import requests_unixsocket
+from httpie.plugins import TransportPlugin
+from requests_unixsocket import UnixAdapter, DEFAULT_SCHEME
 
 
 __version__ = '0.0.0'
@@ -11,8 +11,10 @@ __author__ = 'Marc Abramowitz'
 __licence__ = 'BSD'
 
 
-requests_unixsocket.monkeypatch()
+class UnixSocketTransportPlugin(TransportPlugin):
+    name = 'UNIX socket transport'
 
+    prefix = DEFAULT_SCHEME
 
-class UnixSocketAuthPlugin(AuthPlugin):
-    name = 'UNIX socket'
+    def get_adapter(self):
+        return UnixAdapter()

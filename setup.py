@@ -9,13 +9,13 @@ setup(
     author='Jakub Roztocil',
     author_email='jakub@roztocil.name',
     license='BSD',
-    url='https://github.com/jkbr/httpie-unixsocket',
-    download_url='https://github.com/jkbr/httpie-unixsocket',
+    url='https://github.com/msabramo/httpie-unixsocket',
+    download_url='https://github.com/msabramo/httpie-unixsocket',
     py_modules=['httpie_unixsocket'],
     zip_safe=False,
     entry_points={
-        'httpie.plugins.auth.v1': [
-            'httpie_unixsocket = httpie_unixsocket:UnixSocketAuthPlugin'
+        'httpie.plugins.transport.v1': [
+            'httpie_unixsocket = httpie_unixsocket:UnixSocketTransportPlugin'
         ]
     },
     install_requires=[
