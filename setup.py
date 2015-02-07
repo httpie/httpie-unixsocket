@@ -10,7 +10,6 @@ setup(
     author_email='marc@marc-abramowitz.com',
     license='BSD',
     url='https://github.com/msabramo/httpie-unixsocket',
-    download_url='https://github.com/msabramo/httpie-unixsocket',
     py_modules=['httpie_unixsocket'],
     zip_safe=False,
     entry_points={
