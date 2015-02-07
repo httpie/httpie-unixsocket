@@ -3,11 +3,10 @@ from setuptools import setup
 
 setup(
     name='httpie-unixsocket',
-    description='UNIX socket auth plugin for HTTPie.',
+    description='UNIX socket transport plugin for HTTPie.',
     long_description=open('README.rst').read().strip(),
     version='1.0.2',
-    author='Jakub Roztocil',
-    author_email='jakub@roztocil.name',
+    author='Marc Abramowitz',
     license='BSD',
     url='https://github.com/msabramo/httpie-unixsocket',
     download_url='https://github.com/msabramo/httpie-unixsocket',
