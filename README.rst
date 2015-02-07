@@ -1,7 +1,7 @@
 httpie-unixsocket
 =================
 
-UNIX socket plugin for `HTTPie <https://github.com/jkbr/httpie>`_.
+UNIX socket transport plugin for `HTTPie <http://httpie.org>`_.
 
 
 Installation
