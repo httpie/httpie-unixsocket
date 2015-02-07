@@ -3,6 +3,10 @@ httpie-unixsocket
 
 UNIX socket transport plugin for `HTTPie <http://httpie.org>`_.
 
+.. image:: https://pypip.in/version/httpie-unixsocket/badge.svg
+    :target: https://pypi.python.org/pypi/httpie-unixsocket/
+    :alt: Latest Version
+
 
 Installation
 ------------
