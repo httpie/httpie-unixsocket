@@ -9,7 +9,7 @@ setup(
     author='Marc Abramowitz',
     author_email='marc@marc-abramowitz.com',
     license='BSD',
-    url='https://github.com/msabramo/httpie-unixsocket',
+    url='https://github.com/httpie/httpie-unixsocket',
     py_modules=['httpie_unixsocket'],
     zip_safe=False,
     entry_points={
