@@ -19,7 +19,7 @@ Installation
 Example usage
 -------------
 
-To query Docker for info, using `/var/run/docker.sock`:
+To query Docker for info, using ``/var/run/docker.sock``:
 
 .. code-block:: bash
 
