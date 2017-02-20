@@ -16,12 +16,14 @@ Installation
     $ pip install httpie-unixsocket
 
 
-Usage
------
+Example usage
+-------------
+
+To query Docker for info, using `/var/run/docker.sock`:
 
 .. code-block:: bash
 
-    $ http http+unix://%2Ftmp%2Fprofilesvc.sock/status/pid
+    $ http http+unix://%2Fvar%2Frun%2Fdocker.sock/info
 
 
 Requirements
